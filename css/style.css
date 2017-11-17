@@ -2,94 +2,110 @@ body {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   margin: 0;
-  height: 1795px;
-  border: 1px solid #000000;
+  background-size: cover;
 }
+
 .wrapper {
   width: 900px;
   margin: 230px auto 270px;
   background-color: #ffffff;
   padding: 60px;
 }
+
 .column {
   display: inline-block;
   vertical-align: top;
 }
+
 .block1 {
   width: 650px;
 }
+
 .block2 {
   width: 200px;
   margin-left: 30px;
 }
+
 h2 {
   margin: 60px 0 40px;
   color: #263555;
 }
+
 .leftimg {
   float: left;
   margin: 0 20px 20px 0;
 }
+
 .underlined {
   border-bottom: 1px solid #616364;
-margin: 60px 0 0;
+  margin: 60px 0 0;
 }
+
 ol {
   list-style: none;
 }
+
 ol li {
   position: relative;
   padding-left: 10px;
 }
+
 ol li::before {
-border-radius: 50%;
-text-align: center;
-height: 25px;
-width: 25px;
-position: absolute;
-top: -5px;
-left: -30px;
-background-color: #38afe5;
-font-size: 20px;
-color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: -5px;
+  left: -30px;
+  background-color: #38afe5;
+  font-size: 20px;
+  color: #ffffff;
 }
+
 .firstli::before {
   content: '1';
 }
+
 .secondli::before {
   content: '2';
 }
+
 .thirdli::before {
   content: '3';
 }
+
 ol li p {
   margin: 10px 0;
 }
+
 ul {
   width: 470px;
   padding-left: 0;
 }
+
 ul li {
   display: inline-block;
+  position: relative;
   list-style: none;
   padding-top: 30px;
 }
+
 .block3 {
-    display: inline-block;
+  display: inline-block;
   width: 650px;
 }
-ul li {
-  position: relative;
 
-}
 ul li::before {
   content: url(../images/strelka1.png);
 }
+
 .block4 {
   display: inline-block;
   vertical-align: top;
   margin-left: 30px;
 }
+
 .quote {
   position: relative;
   background-color: #faefef;
@@ -98,6 +114,7 @@ ul li::before {
   border: 1px solid #dfdcdc;
   border-radius: 2%;
 }
+
 .quote::before {
   content: '';
   display: block;
@@ -105,30 +122,33 @@ ul li::before {
   left: 90px;
   bottom: -25px;
   width: 0;
-height: 0;
-border-style: solid;
-border-width: 25px 15px 0 15px;
-border-color: #faefef transparent transparent transparent;
-
+  height: 0;
+  border-style: solid;
+  border-width: 25px 15px 0 15px;
+  border-color: #faefef transparent transparent transparent;
 }
+
 .hooks {
   position: relative;
   margin: 15px;
   text-indent: 10px;
 }
+
 .hooks::before {
   content: '\0022';
   position: absolute;
   left: -10px;
 }
+
 .hooks::after {
   content: '\0022';
-
 }
+
 .text {
   color: #263555;
   font-weight: 600;
 }
+
 .center {
   text-align: center;
   margin-top: 60px;
